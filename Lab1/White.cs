@@ -1,4 +1,6 @@
-﻿namespace Lab1
+﻿using System.ComponentModel.Design;
+
+namespace Lab1
 {
     public class White
     {
@@ -7,7 +9,8 @@
             bool answer = false;
 
             // code here
-
+            answer = d > 0;
+            Console.WriteLine(d);
             // end
 
             return answer;
