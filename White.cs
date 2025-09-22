@@ -55,8 +55,12 @@ namespace Lab1
             {
                 answer = f;
             }
-            
-            // end
+            else
+            {
+                answer = d;
+            }
+
+                // end
 
                 return answer;
         }
@@ -69,8 +73,13 @@ namespace Lab1
             {
                 answer = x;
             }
-  
-            // end
+            else
+            {
+                answer = 1;
+            }
+
+
+                // end
 
                 return answer;
         }
