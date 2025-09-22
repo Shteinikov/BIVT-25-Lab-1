@@ -9,8 +9,8 @@ namespace Lab1
             bool answer = false;
 
             // code here
-            answer = d > 0;
-            Console.WriteLine(d);
+            if (d>0)
+                answer = true;
             // end
 
             return answer;
@@ -51,7 +51,9 @@ namespace Lab1
             double answer = 0;
 
             // code here
-            if (Math.Abs(d) >= Math.Abs(f))
+            double a = Math.Abs(f);
+            double b = Math.Abs(d);
+            if (a<b)
             {
                 answer = f;
             }
@@ -66,17 +68,19 @@ namespace Lab1
         }
         public double Task5(double x)
         {
-            double answer = 1;
+            double answer = 0;
 
             // code here
-            if (Math.Abs(x) <= 1)
+            if (Math.Abs(x) > 1)
             {
-                answer = x;
+                answer = 1;
             }
             else
             {
-                answer = Math.Abs(x);
+                answer = x;
             }
+
+
             // end
 
                 return answer;
