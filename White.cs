@@ -48,10 +48,12 @@ namespace Lab1
         }
         public double Task4(double d, double f)
         {
-            double answer = d;
+            double answer = 0;
 
             // code here
-            if (Math.Abs(d) > Math.Abs(f))
+            double a = Math.Abs(f);
+            double b = Math.Abs(d);
+            if (a<b)
             {
                 answer = f;
             }
@@ -66,16 +68,16 @@ namespace Lab1
         }
         public double Task5(double x)
         {
-            double answer = 1;
+            double answer = 0;
 
             // code here
-            if (Math.Abs(x) <= 1)
+            if (Math.Abs(x) > 1)
             {
-                answer = x;
+                answer = 1;
             }
             else
             {
-                answer = 1;
+                answer = x;
             }
 
 
