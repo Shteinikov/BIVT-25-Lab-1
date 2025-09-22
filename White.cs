@@ -62,7 +62,7 @@ namespace Lab1
                 answer = d;
             }
 
-                // end
+            // end
 
                 return answer;
         }
@@ -81,7 +81,7 @@ namespace Lab1
             }
 
 
-                // end
+            // end
 
                 return answer;
         }
