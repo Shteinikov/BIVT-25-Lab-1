@@ -1,6 +1,4 @@
-﻿using System.ComponentModel.Design;
-
-namespace Lab1
+﻿namespace Lab1
 {
     public class White
     {
@@ -9,7 +7,7 @@ namespace Lab1
             bool answer = false;
 
             // code here
-            if (d>0)
+            if (d > 0)
                 answer = true;
             // end
 
@@ -20,10 +18,10 @@ namespace Lab1
             bool answer = false;
 
             // code here
-            if (n % 2 == 0) 
+            if (n % 2 == 0)
             {
                 answer = true;
-            }  
+            }
             // end
 
             return answer;
@@ -33,18 +31,18 @@ namespace Lab1
             int answer = 0;
 
             // code here
-            if ( a > b)
+            if (a > b)
             {
                 answer = a;
             }
-            else 
+            else
             {
                 answer = b;
             }
 
             // end
 
-             return answer;
+            return answer;
         }
         public double Task4(double d, double f)
         {
@@ -53,7 +51,7 @@ namespace Lab1
             // code here
             double a = Math.Abs(f);
             double b = Math.Abs(d);
-            if (a<b)
+            if (a < b)
             {
                 answer = f;
             }
@@ -64,7 +62,7 @@ namespace Lab1
 
             // end
 
-                return answer;
+            return answer;
         }
         public double Task5(double x)
         {
@@ -83,7 +81,7 @@ namespace Lab1
 
             // end
 
-                return answer;
+            return answer;
         }
         public bool Task6(double x, double y, double r)
         {
@@ -100,7 +98,7 @@ namespace Lab1
 
             return answer;
         }
-        
+
         public bool Task7(int n)
         {
             bool answer = false;
@@ -113,9 +111,9 @@ namespace Lab1
                 {
                     answer = true;
                 }
-            }   
+            }
             // end
-            
+
             return answer;
         }
         public bool Task8(double L, int T, int M)
@@ -123,7 +121,7 @@ namespace Lab1
             bool answer = false;
 
             // code here
-            if (L <= 30 && (T + M) >= 5 && M%2==0)
+            if (L <= 30 && (T + M) >= 5 && M % 2 == 0)
             {
                 answer = true;
             }
